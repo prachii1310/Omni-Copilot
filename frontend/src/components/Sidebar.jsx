@@ -265,7 +265,7 @@ function ConnectButton() {
   const [hovered, setHovered] = useState(false)
   return (
     <a
-      href="http://localhost:3001/auth/google"
+      href="https://omni-copilot-backend.onrender.com/auth/google"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
